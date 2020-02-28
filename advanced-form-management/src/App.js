@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import FormikOnboardingForm from './Components/Form'
 import './App.css';
-import Form from './Components/Form'
+
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <FormikOnboardingForm />
     </div>
   );
 }
